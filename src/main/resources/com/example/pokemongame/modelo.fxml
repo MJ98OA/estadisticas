@@ -41,6 +41,7 @@
             <HBox fx:id="fondoeleccion" alignment="BOTTOM_CENTER" maxWidth="-Infinity" prefHeight="146.0" prefWidth="200.0" style="-fx-background-color: #524659;">
                <children>
                   <ImageView fx:id="imgpokemon" fitHeight="147.0" fitWidth="168.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="efecto" fitHeight="27.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true" />
                   <ImageView fx:id="sexopokemon" fitHeight="27.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true" />
                </children>
             </HBox>

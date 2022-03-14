@@ -20,6 +20,12 @@ import java.util.ResourceBundle;
 
 public class HelloController implements Initializable {
 
+
+    public static int danioPokemonsmios = 0;
+    public static int danioPokemonsEnemigos = 0;
+    public static ArrayList<ModelController> listaController = new ArrayList<>();
+    List<Pokemons> listaPokemons = new ArrayList<>();
+
     @FXML
     public AnchorPane actualizatodo;
 
@@ -95,13 +101,6 @@ public class HelloController implements Initializable {
 
     }
 
-
-    public static int danioPokemonsmios = 0;
-    public static int danioPokemonsEnemigos = 0;
-
-    public static ArrayList<ModelController> listaController = new ArrayList<>();
-
-    List<Pokemons> listaPokemons = new ArrayList<>();
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {

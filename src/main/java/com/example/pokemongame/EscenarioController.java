@@ -18,6 +18,12 @@ public class EscenarioController {
 
     private int i;
 
+    private Pokemons datosMiPokemon;
+
+    private List<Pokemons> listaPokemons = PokemonRepository.listaEnemigos();
+
+    private HelloController helloController=null;
+
     @FXML
     private Button bAtacar;
 
@@ -209,11 +215,6 @@ public class EscenarioController {
         psimgE.setVisible(true);
     }
 
-    private Pokemons datosMiPokemon;
-
-    private List<Pokemons> listaPokemons = PokemonRepository.listaEnemigos();
-
-    private HelloController helloController=null;
 
 
     public void alerta() {

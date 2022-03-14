@@ -10,6 +10,7 @@ public class Pokemons {
     private int vidaMaxima;
     boolean  seleccionado;
     int vecesSeleccionado;
+    String efecto;
 
     Pokemons(String nombrepokemon,int nivelpokemon,String imgenpokemon,String imagengenero,String imagenps,int vidaActual,int vidaMaxima,boolean seleccionado, int vecesSeleccionado){
         this.nombrepokemon=nombrepokemon;
@@ -21,6 +22,15 @@ public class Pokemons {
         this.vidaMaxima=vidaMaxima;
         this.seleccionado=seleccionado;
         this.vecesSeleccionado=vecesSeleccionado;
+    }
+
+
+    public String getEfecto() {
+        return efecto;
+    }
+
+    public void setEfecto(String efecto) {
+        this.efecto = efecto;
     }
 
     public String getNombrepokemon() {

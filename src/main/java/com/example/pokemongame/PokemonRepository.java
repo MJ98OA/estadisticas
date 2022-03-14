@@ -3,6 +3,7 @@ package com.example.pokemongame;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class PokemonRepository {
 
@@ -58,6 +59,7 @@ public class PokemonRepository {
         enemigos.add(p4);
         return enemigos;
     }
+
 
 
 
